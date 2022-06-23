@@ -1,0 +1,117 @@
+.page__body {
+  background-color: rgb(92, 92, 92);
+}
+
+.page__header {
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+.link {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  padding: 20px 0;
+  margin-right: 30px;
+}
+
+.current-link {
+  text-decoration: underline;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(65, 147, 153);
+}
+
+.link:active {
+  color: rgba(33, 91, 95, 0.7);
+  opacity: 0.3;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.inner-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(23, 191, 107);
+  transition: all 0.5s;
+  padding: 5px 20px;
+  opacity: 0.7;
+}
+
+.btn:hover,
+.btn:active {
+  transition: all 0.5s;
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+div#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: 60px auto;
+  background: url('img/board.jpg') no-repeat;
+}
+
+div#messageArea {
+  height: 8%;
+  width: 33%;
+  background-color: rgb(226, 155, 68);
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+table {
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border-spacing: 0px;
+}
+
+td {
+  width: 94px;
+  height: 94px;
+}
+
+form {
+  position: absolute;
+  right: 0px;
+  padding: 15px;
+  background-color: rgb(226, 155, 68);
+}
+
+form input {
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.hit {
+  background: url('img/ship.png') no-repeat center center;
+}
+
+.miss {
+  background: url('img/miss.png') no-repeat center center;
+}
